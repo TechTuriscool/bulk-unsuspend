@@ -25,21 +25,24 @@ h1 {
     margin-bottom: 20px;
 }
 
-input[type="file"],
-textarea {
+input[type="file"]{
+    width: 584px;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-bottom: 10px;
+    background-color: white;
 }
 
 textarea {
+    padding: 8px;
     width: 600px;
     height: 400px;
     box-sizing: border-box;
     text-align: left;
-    padding-top: 10px;
-    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
     resize: none; /* Evita el redimensionamiento del textarea */
     overflow-wrap: break-word; /* Permite el salto de línea */
     white-space: pre-wrap; /* Preserva los saltos de línea */
