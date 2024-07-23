@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>DESUSPENDER USUARIOS EN MASA</h1>
+    <div class="subtitle">
+
+        <h4>Esta utilidad te permite volver a recuperar usuarios suspendidos en masa y no tener que ir 1 a 1 en LW. Para ello necesitas un CSV de alumnos descargado desde LearnWorlds o introducir los mails separados por comas</h4>
+    </duv>
+
+    <h3>Sube un CSV de alumnos descargado desde learnWorlds</h3>
+    <div class="container">
+        <input type="file" id="file">
+        <button id="upload">Upload</button>
+    </div>
+    <h3>O introduce los mails separados por comas</h3>
+    <div class="container">
+        <textarea id="mails" class="text-input"></textarea>
+        <button id="unsuspend" class="unsuspend-button">Unsuspend</button>
+    </div>
+
+    <script type="module" src="./frontend.js"></script>
+</body>
+</html>
